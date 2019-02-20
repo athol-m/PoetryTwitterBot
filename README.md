@@ -12,3 +12,6 @@ In this note, I go over Python code using the Tweepy library. The code in this n
 
 ### TweetWithPython.py
 This note includes the code needed to create a function that runs continuously to search the timeline for mentions and respond to mentions including a keyword.
+
+### last_seen_id.txt
+This text file holds the Tweet ID of the last tweet that mentioned the account that the function analysed. 
