@@ -9,3 +9,6 @@ This file holds the "secrets" that are needed to initiate the 0AuthHandler reque
 In this note, I go over Python code using the Tweepy library. The code in this note will:
 1. authenticate with Twitter
 2. print the tweets that the account has publically tweeted
+
+### TweetWithPython.py
+This note includes the code needed to create a function that runs continuously to search the timeline for mentions and respond to mentions including a keyword.
