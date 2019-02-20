@@ -4,3 +4,8 @@ This repository will include files that describe my process and code for creatin
 ## Description of Files
 ### secrets.py
 This file holds the "secrets" that are needed to initiate the 0AuthHandler request including all the access tokens. These are found on the app page for your Twitter developer account. By having these tokens in one file, it makes it easy to import the contents of the file into whatever project is being used so that 1) code can be shared without sharing private access codes and 2) so that the codes don't need to be added to every file that wishes to use them. 
+
+### PrintTweets.py
+In this note, I go over Python code using the Tweepy library. The code in this note will:
+1. authenticate with Twitter
+2. print the tweets that the account has publically tweeted
