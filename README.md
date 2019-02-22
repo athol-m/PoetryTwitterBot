@@ -15,3 +15,6 @@ This note includes the code needed to create a function that runs continuously t
 
 ### last_seen_id.txt
 This text file holds the Tweet ID of the last tweet that mentioned the account that the function analysed. 
+
+### ImageResponse.py
+This Python file includes the code that will allow you to continuously run a function that will search the authenticated account's timeline for mentions and respond in one of two ways: 1. if the mention includes a keyword, the program responds with a phrase, 2. if the mention includes an image, the program responds with the image and a phrase. 
