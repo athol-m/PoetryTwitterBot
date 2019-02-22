@@ -4,9 +4,9 @@ The code in this file is the main program file for a program that, when run, wil
 Doing this requires that you have a [developer Twitter account](https://developer.twitter.com/en/apply-for-access.html) and have created a [Twitter app](https://developer.twitter.com/en/apps) for your project.
 
 ### Other files referenced by this program:
-**secrets.py** which holds the authentication tokens for the Twitter account
+[**secrets.py**](https://github.com/athol-m/PoetryTwitterBot/blob/master/secrets.py) which holds the authentication tokens for the Twitter account
 
-**last_seen_id.txt** which holds the Tweet ID of the tweet the program most recently saw
+[**last_seen_id.txt**](https://github.com/athol-m/PoetryTwitterBot/blob/master/last_seen_id.txt) which holds the Tweet ID of the tweet the program most recently saw
 
 Both of these files can be seen in my PoetryTwitterBot respository but they serve as examples: the values have been removed (to protect personal data)
 
