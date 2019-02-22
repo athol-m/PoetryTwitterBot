@@ -1,5 +1,8 @@
 # Responding to Mentions and Tweeting Images
 The code in this file is the main program file for a program that, when run, will stream the authenticated Twitter feed to look for mentions, assess mentions for keywords or images, then respond with either a phrase or the image and a phrase. 
+
+Doing this requires that you have a [developer Twitter account](https://developer.twitter.com/en/apply-for-access.html) and have created a [Twitter app](https://developer.twitter.com/en/apps) for your project.
+
 ### Other files referenced by this program:
 **secrets.py** which holds the authentication tokens for the Twitter account
 
