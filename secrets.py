@@ -1,6 +1,6 @@
 # secrets.py
 
-consumer_key = ''
-consumer_secret = ''
-access_token = ''
-access_secret = ''
+consumer_key = 'YOUR-KEY-HERE'
+consumer_secret = 'YOUR-KEY-HERE'
+access_token = 'YOUR-KEY-HERE'
+access_secret = 'YOUR-KEY-HERE'
