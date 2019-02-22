@@ -2,6 +2,7 @@
 
 
 '''python
+
 def reply_to_tweets(): #this function will automatically respond to tweets
     filename = 'yourimage.png'
     print('retrieving and replying to tweets...')
@@ -39,4 +40,5 @@ def reply_to_tweets(): #this function will automatically respond to tweets
             print("no image here")
 
     print('all up to date!')
+    
 '''
