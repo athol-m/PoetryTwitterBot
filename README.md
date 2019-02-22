@@ -5,16 +5,16 @@ This repository will include files that describe my process and code for creatin
 ### secrets.py
 This file holds the "secrets" that are needed to initiate the 0AuthHandler request including all the access tokens. These are found on the app page for your Twitter developer account. By having these tokens in one file, it makes it easy to import the contents of the file into whatever project is being used so that 1) code can be shared without sharing private access codes and 2) so that the codes don't need to be added to every file that wishes to use them. 
 
-### PrintTweets.py
-In this note, I go over Python code using the Tweepy library. The code in this note will:
-1. authenticate with Twitter
-2. print the tweets that the account has publically tweeted
-
 ### TweetWithPython.py
 This note includes the code needed to create a function that runs continuously to search the timeline for mentions and respond to mentions including a keyword.
 
 ### last_seen_id.txt
 This text file holds the Tweet ID of the last tweet that mentioned the account that the function analysed. 
 
-### ImageResponse.py
-This Python file includes the code that will allow you to continuously run a function that will search the authenticated account's timeline for mentions and respond in one of two ways: 1. if the mention includes a keyword, the program responds with a phrase, 2. if the mention includes an image, the program responds with the image and a phrase. 
+### RespondWithImages.md
+Using the Tweepy library, we will:
+1. authenticate with Twitter
+2. set up a stream
+3. scan mentions for a keyword and respond with a phrase
+4. scan mentions for an image and respond with the image and a phrase
+5. run the function continuously
