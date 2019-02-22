@@ -92,3 +92,10 @@ def reply_to_tweets(): #this function will automatically respond to tweets
     print('all up to date!')
     
 ```
+## Running the function
+The code below will allow the function to run continuously, and the function will run every 120 seconds
+```python
+while True:
+    reply_to_tweets()
+    time.sleep(120)
+```
