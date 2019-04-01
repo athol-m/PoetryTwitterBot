@@ -4,7 +4,7 @@
 # Import everything we will need
 
 import tweepy # we'll use the streaming API to push messages to a persistent session
-from secrets import * # import the data within the file secrets.py
+from secrets import consumer_key, consumer_secret, access_token, access_secret # import the data within the file secrets.py
 
 ### Let the program authenticate with Twitter
 # create an OAuthHandler instance
