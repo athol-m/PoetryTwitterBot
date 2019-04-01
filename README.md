@@ -18,3 +18,9 @@ Using the Tweepy library, we will:
 3. scan mentions for a keyword and respond with a phrase
 4. scan mentions for an image and respond with the image and a phrase
 5. run the function continuously
+
+### random_numbers.py
+A bit of a misnomer for a big part of what is in this file. This file contains code to accomplish three things:
+1. define the color category lists containing seed words
+2. define the function that will assign an RGB color value its color category (not really working for some reason)
+3. define the function that takes a color category as its input and outputs a seed word by generating a random number to be used as the index for the color list
