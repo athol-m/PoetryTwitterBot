@@ -1,15 +1,11 @@
 # PoetryTwitterBot
-This repository will include files that describe my process and code for creating a poetry Twitter bot that will respond with poetry when a user tweets an image at the account. 
+This repository will include files that describe my process and code for creating a poetry Twitter bot that will respond with neural network generated poetry when a user tweets an image at the account. 
 
-## Description of Files
+# Description of Files
 
-### Files Currently in Use in the Project
+## Files Currently in Use in the Project
 
-#### secrets.py
-This file holds the "secrets" that are needed to initiate the 0AuthHandler request including all the access tokens. These are found on the app page for your Twitter developer account. By having these tokens in one file, it makes it easy to import the contents of the file into whatever project is being used so that 1) code can be shared without sharing private access codes and 2) so that the codes don't need to be added to every file that wishes to use them. 
-
-#### last_seen_id.txt
-This text file holds the Tweet ID of the last tweet that mentioned the account that the function analysed. 
+### Main Program Files
 
 #### twitter.py
 This file contains the code that will 
@@ -25,21 +21,38 @@ The "everything in between" file, this is the file in which the image analysis a
 #### rnn.py
 This file *will* contain the parameters for the recurrent neural network that write the poetry and the function that takes a color and "turns it into" a seed word. But right now it only contains some sample variables so I can test the code in twitter.py. 
 
+
+### Other Files Used (not all are included in this repository)
+
+#### secrets.py
+This file holds the "secrets" that are needed to initiate the 0AuthHandler request including all the access tokens. These are found on the app page for your Twitter developer account. By having these tokens in one file, it makes it easy to import the contents of the file into whatever project is being used so that 1) code can be shared without sharing private access codes and 2) so that the codes don't need to be added to every file that wishes to use them. 
+
+#### last_seen_id.txt
+This text file holds the Tweet ID of the last tweet that mentioned the account that the function analysed. 
+
+#### yourimage.png
+This is the image that was most recently submitted and responded to. It gets replaced with a new image for each mention. 
+
+#### line1.txt, line2.txt, line3.txt
+These are the files into which the generated poetry will be written. 
+
+#### poetry5_config.json
+This file contains configuration perameters for the neural network including whether the generation is line delimited. 
+
+#### poetry5_weights.json
+This json file contains the weights and probabilities textgenrnn uses to predict the next character and generate the poetry. 
+
+#### poetry5_vocab.json
+This is the vocabulary the RNN draws from. 
+
+
 ### Other Miscellaneous Files that I've Used Along the Way
 
-#### TweetWithPython.py
-This note includes the code needed to create a function that runs continuously to search the timeline for mentions and respond to mentions including a keyword.
-
 #### RespondWithImages.md
+This is a useful file that explains the OAuth process and simple handling of tweet attributes using Tweepy. 
 Using the Tweepy library, we will:
 1. authenticate with Twitter
 2. set up a stream
 3. scan mentions for a keyword and respond with a phrase
 4. scan mentions for an image and respond with the image and a phrase
 5. run the function continuously
-
-#### random_numbers.py
-A bit of a misnomer for a big part of what is in this file. This file contains code to accomplish three things:
-1. define the color category lists containing seed words
-2. define the function that will assign an RGB color value its color category (not really working for some reason)
-3. define the function that takes a color category as its input and outputs a seed word by generating a random number to be used as the index for the color list
