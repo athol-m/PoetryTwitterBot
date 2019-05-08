@@ -59,7 +59,10 @@ This json file contains the weights and probabilities textgenrnn uses to predict
 This is the vocabulary the RNN draws from. 
 
 
-### Other Miscellaneous Files that I've Used Along the Way
+### Other Somewhat Miscellaneous Files
+
+#### Using a virtualenv.md
+This markdown file includes why I chose to run my programs for this project using a ```virtualenv``` as well as how I set one up and use it. 
 
 #### RespondWithImages.md
 This is a useful file that explains the OAuth process and simple handling of tweet attributes using Tweepy. 
