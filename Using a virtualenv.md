@@ -14,3 +14,12 @@ the install in my scripts. This makes running scripts a little smoother (in my o
 I'm using a 2014 Macbook Air running MacOS 10.13.1 (High Sierra). (And yes, I know I need to update my OS)
 
 ### Installing virtual env
+In terminal, run the following command:
+
+```sudo pip install virtualenv```
+
+If you run into any challenges, try running the following command:
+
+```sudo easy_install pip```
+
+### Now setting up a virtualenv
