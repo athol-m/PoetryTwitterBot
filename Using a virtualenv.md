@@ -23,3 +23,19 @@ If you run into any challenges, try running the following command:
 ```sudo easy_install pip```
 
 ### Now setting up a virtualenv
+First, I created a directory for my Python work with the file path:
+```~/Users/mathol/Python```
+
+```mkdir Python && cd Python```
+
+once in the directory, I made a virtualenv named ```env```:
+
+```virtualenv env```
+
+and activated it:
+
+```source env/bin/activate```
+
+Then I can install packages and run programs and use terminal normally. But any install is local and applied only to ```env```. Once I am finished, I deactivate it:
+
+```deactivate```
