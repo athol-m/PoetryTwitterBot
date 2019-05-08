@@ -16,15 +16,21 @@ I'm using a 2014 Macbook Air running MacOS 10.13.1 (High Sierra). (And yes, I kn
 ### Installing ```virtualenv```
 In terminal, run the following command:
 
-```sudo pip install virtualenv```
+```bash
+sudo pip install virtualenv
+```
 
 If you run into any challenges, try running the following command:
 
-```sudo easy_install pip```
+```bash
+sudo easy_install pip
+```
 
 And then run
 
-```sudo pip install virtualenv```
+```bash
+sudo pip install virtualenv
+```
 
 again
 
@@ -32,16 +38,24 @@ again
 First, I created a directory for my Python work with the file path:
 ```~/Users/mathol/Python```
 
-```mkdir Python && cd Python```
+```bash
+mkdir Python && cd Python
+```
 
 once in the directory, I made a virtualenv named ```env```:
 
-```virtualenv env```
+```bash
+virtualenv env
+```
 
 and activated it:
 
-```source env/bin/activate```
+```bash
+source env/bin/activate
+```
 
 Then I can install packages and run programs and use terminal normally. But any install is local and applied only to ```env```. Once I am finished, I deactivate it:
 
-```deactivate```
+```bash
+deactivate
+```
