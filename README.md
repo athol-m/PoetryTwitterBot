@@ -30,7 +30,10 @@ The list of color association words is based off of single-word associations wit
 #### rnn.py
 This file contains the parameters for the recurrent neural network that write the poetry and the function. It also includes two functions:
 1. seed_to_line: this function will generate 250 characters of poetry to a file based on an inputted seed word. Then, it trims the results to a single line that is returned.  
-1. trim_results: this is the function that will trim the 250 character generation into a single line. 
+1. trim_results: this is the function that will trim the 250 character generation into a single line.
+
+#### 200chartweet.py
+This is an independent program file that, when run, will tweet 200 characters of poetry generated on the spot. 
 
 ### Other Files Used (not all are included in this repository)
 
