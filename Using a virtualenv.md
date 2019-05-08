@@ -13,7 +13,7 @@ the install in my scripts. This makes running scripts a little smoother (in my o
 ### A little bit about my system first:
 I'm using a 2014 Macbook Air running MacOS 10.13.1 (High Sierra). (And yes, I know I need to update my OS)
 
-### Installing virtual env
+### Installing ```virtualenv```
 In terminal, run the following command:
 
 ```sudo pip install virtualenv```
@@ -21,6 +21,12 @@ In terminal, run the following command:
 If you run into any challenges, try running the following command:
 
 ```sudo easy_install pip```
+
+And then run
+
+```sudo pip install virtualenv```
+
+again
 
 ### Now setting up a virtualenv
 First, I created a directory for my Python work with the file path:
